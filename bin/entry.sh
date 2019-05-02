@@ -89,6 +89,7 @@ client-to-client
 max-clients 50
 username-as-common-name
 client-cert-not-required
+reneg-sec 1209600
 
 script-security 3 system
 auth-user-pass-verify /usr/local/bin/openvpn-auth.sh via-env
